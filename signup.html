@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="img/PelufifyIcon.png" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="img/PeludifyB.png" alt="Logo Peludify" width="300px">
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="" id="signup-form" class="formulario">
+            <fieldset>
+                <legend>Acerca de ti</legend>
+                <div class="txt-field">
+                    <label for="name">Nombres:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="txt-field">
+                    <label for="lastname">Apellidos:</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="date-field">
+                    <label for="birth">Fecha de nacimiento:</label>
+                    <input type="date" name="birth" id="birth">
+                </div>
+                <div class="radio-container">
+                    <label for="">Genero:</label>
+                    <div class="radio-group">
+                        <div class="radio-field">
+                            <label for="male">Hombre</label>
+                            <input type="radio" name="genre" id="male">
+                        </div>
+                        <div class="radio-field">
+                            <label for="female">Mujer</label>
+                            <input type="radio" name="genre" id="female">
+                        </div>
+                        <div class="radio-field">
+                            <label for="other">Other</label>
+                            <input type="radio" name="genre" id="other">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tu cuenta</legend>
+
+                <div class="txt-field">
+                    <label for="email">Correo:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="txt-field">
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class="txt-field">
+                    <label for="passvs">Repite tu contraseña:</label>
+                    <input type="password" name="passvs" id="passvs">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
+
+
+<!-- Headbook kind Date Selector prototype v01
+    <div class="date-selectors">
+        <div class="day-selector">
+            <input type="number" id="day">
+        </div>
+        <div class="month-selector">
+            <select name="month" id="month">
+                <option value="0" selected disabled>Seleccione...</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+        </div>
+        <div class="year-selector">
+            <input type="number" name="year" id="year" min="1900">
+        </div>
+    </div>
+-->
